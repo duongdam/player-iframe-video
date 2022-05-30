@@ -2,8 +2,7 @@
 
 > Play vimeo video and more
 
-[![NPM](https://img.shields.io/npm/v/player-iframe-video.svg)](https://www.npmjs.com/package/player-iframe-video) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
+demo: https://duongdam.github.io/player-iframe-video
 ## Program
 
 ```markdown
@@ -15,6 +14,7 @@
 
 ```bash
 npm install --save player-iframe-video
+yarn add player-iframe-video
 ```
 
 ## Usage
