@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import IframePlayer from ".";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("IframePlayer", () => {
+  it("is truthy", () => {
+    expect(IframePlayer).toBeTruthy();
+  });
+});

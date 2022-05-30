@@ -1,9 +1,28 @@
-/* add css module styles here (optional) */
+.VideoRoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.iFrameRoot {
+  width: 100%;
+}
+
+.animamRoot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.VideoRootMain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iFrameRootMain {
+  width: 100%;
+  height: 100%;
 }
