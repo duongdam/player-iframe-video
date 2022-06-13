@@ -26,13 +26,13 @@ function IframePlayer({ id, iFrame, height = "100%", isMain = "" }: VideoProps) 
 
     // Retrieve window object needed for postMessage
     const player = new Player(iFrameElement);
-    player.ready().then(res => console.log(res));
+    player.ready().then();
 
     if (onScreen) {
       player.play().then(() => {
         // console.log('play', res)
-      }).catch(e => {
-        console.log(e);
+      }).catch(() => {
+        // console.log(e);
       });
 
       player.on("ended", () => {
@@ -48,9 +48,10 @@ function IframePlayer({ id, iFrame, height = "100%", isMain = "" }: VideoProps) 
       });
 
     } else {
-      player.pause().then(res => {
-        console.log("pause", res);
-      }).catch(e => console.log(e));
+      player.pause().then(() => {
+        // console.log("pause", res);
+      }).catch(() => {
+      });
     }
 
   }, [onScreen, id]);
