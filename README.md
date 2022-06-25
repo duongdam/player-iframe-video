@@ -6,8 +6,10 @@ demo: https://duongdam.github.io/player-iframe-video
 ## Program
 
 ```markdown
+- Player Vimeo iframe embed
 - Scroll to autoplay, stop this video
-- Player vimeo iframe embed
+- Support to: Vimeo Iframe
+- Continues support to: Youtube & more
 ```
 
 ## Install
